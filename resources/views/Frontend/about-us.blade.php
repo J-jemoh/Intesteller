@@ -19,12 +19,12 @@
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         <div class="col-md-6">
-                            <img src="{{asset('custom/img/aboutus.jpg')}}" alt="Image">
+                            <img src="{{asset('custom/img/whoweare.png')}}" alt="Image">
                         </div>
                         <div class="col-md-6">
                             <h2 class="section-title">Who we are</h2>
                             <p>
-                                Intesteller Recruitment Agency is a certified liability company registered in Kenya. It provides <b>Recruitment, Training, Counselling and Re-integration </b> services both locally and internationall across different fields.
+                                Intersteller Recruitment Agency is a certified liability company registered in Kenya. It provides <b>Recruitment, Training, Counselling and Re-integration </b> services both locally and internationall across different fields.
                             </p>
                             <p>
                                 We have an experienced team skilled in various fields offering training, counselling and recruitment services accross the globe for over 20 years. Our quality work and services to our clients have made us a leading agency in recruitment, training and counselling both locally and internationally. 

@@ -1,8 +1,8 @@
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
-            <img src="{{asset('custom/img/Intesteller.png')}} " width="150px">
-             <h2><b>Recruitment Agency</b></h2>
+            <img src="{{asset('custom/img/Interstellar.png')}} " width="150px">
+             
         </x-slot>
 
         <!-- Session Status -->
@@ -18,7 +18,7 @@
             <div>
                 <x-label for="email" :value="__('Email')" />
 
-                <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
+                <x-input id="email" class="block mt-1 w-full " type="email" name="email" :value="old('email')"  required autofocus  />
             </div>
 
             <!-- Password -->

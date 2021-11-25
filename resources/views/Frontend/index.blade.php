@@ -7,12 +7,12 @@
                     <div class="row align-items-center">
                         <div class="col-md-6">
                             <h2>INTESTELLER</h2>
-                            <h2><span>RECRUITMENT</span> AGENCY</h2>
-                            <p>Experience the best recruitment,talent management and retention solutions in Kenya</p>
+                            <h2><span class="text-warning">RECRUITMENT</span> AGENCY</h2>
+                            <p class="text-white">Experience the best recruitment,talent management and retention solutions in Kenya</p>
                             <a class="btn" href="#about-us">Learn More About us</a>
                         </div>
                         <div class="col-md-6">
-                            <img src="{{asset('custom/img/hero.png')}}" alt="Image">
+                            <img src="{{asset('custom/img/recruitment1.png')}}" alt="Image">
                         </div>
                     </div>
                 </div>
@@ -22,39 +22,8 @@
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         <div class="col-md-6">
-                            <div id="video-section">
-                                <div class="youtube-player" data-id="jssO8-5qmag"></div>
-                                
-                                <script>
-                                    document.addEventListener("DOMContentLoaded",
-                                        function() {
-                                            var div, n,
-                                                v = document.getElementsByClassName("youtube-player");
-                                            for (n = 0; n < v.length; n++) {
-                                                div = document.createElement("div");
-                                                div.setAttribute("data-id", v[n].dataset.id);
-                                                div.innerHTML = labnolThumb(v[n].dataset.id);
-                                                div.onclick = labnolIframe;
-                                                v[n].appendChild(div);
-                                            }
-                                        });
-
-                                    function labnolThumb(id) {
-                                        var thumb = '<img src="{{asset('custom/img/homepage.jpg')}}">',
-                                            play = '<div class="play"></div>';
-                                        return thumb.replace("ID", id) + play;
-                                    }
-
-                                    function labnolIframe() {
-                                        var iframe = document.createElement("iframe");
-                                        var embed = "https://www.youtube.com/embed/ID?autoplay=1";
-                                        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
-                                        iframe.setAttribute("frameborder", "0");
-                                        iframe.setAttribute("allowfullscreen", "1");
-                                        this.parentNode.replaceChild(iframe, this);
-                                    }
-                                </script>
-                            </div>
+                            <img src="{{asset('custom/img/whoweare.png')}}"/>
+                          
                         </div>
                         <div class="col-md-6">
                             <h2 class="section-title">Who we are</h2>
@@ -70,6 +39,23 @@
                     </div>
                 </div>
             </div>
+               <!-- Call to Action Start -->
+            <div class="call-to-action">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-9">
+                            <h2>Are you ready to transform your business?</h2>
+                            <p>
+                                We are here to assist you achieve all your goals and objectives by connecting you to your perfect career/professionals.
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="btn" href="{{route('contactus')}}">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Call to Action End -->
              <!-- Service Start -->
             <div class="service">
                 <div class="container-fluid">

@@ -1,8 +1,7 @@
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
-             <img src="{{asset('custom/img/Intesteller.png')}} " width="150px">
-             <h2><b>Recruitment Agency</b></h2>
+             <img src="{{asset('custom/img/Interstellar.png')}} " width="150px">
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600">

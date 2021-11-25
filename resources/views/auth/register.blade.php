@@ -1,8 +1,8 @@
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
-           <img src="{{asset('custom/img/Intesteller.png')}} " width="150px">
-             <h2><b>Recruitment Agency</b></h2>
+           <img src="{{asset('custom/img/Interstellar.png')}} " width="150px">
+             
         </x-slot>
 
         <!-- Validation Errors -->
@@ -15,7 +15,7 @@
             <div>
                 <x-label for="name" :value="__('FullName')" />
 
-                <x-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus />
+                <x-input id="name" class="block mt-1 w-full " type="text" name="name" :value="old('name')" required autofocus />
             </div>
 
             <!-- Email Address -->

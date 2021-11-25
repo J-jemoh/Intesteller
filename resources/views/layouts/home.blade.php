@@ -3,12 +3,12 @@
     <head>
        
         <meta charset="utf-8">
-        <title>INTESTELLER - Employment Agency</title>
+        <title>INTERSTELLER - Employment Agency</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Bootstrap Agency Template" name="keywords">
         <meta content="Bootstrap Agency Template" name="description">
           <!-- Styles -->
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+       <!--  <link rel="stylesheet" href="{{ asset('css/app.css') }}"> -->
         <!-- Favicon -->
         <link href="{{asset('custom/img/favicon.ico')}}" rel="icon">
 
@@ -22,9 +22,12 @@
         <link href="{{asset('custom/libs/slick/slick-theme.css')}}" rel="stylesheet">
         <link href="{{asset('custom/lib/lightbox/css/lightbox.min.css')}}" rel="stylesheet">
 
+       <link rel="stylesheet" type="text/css" href="{{asset('custom/DataTables/datatables.min.css')}}"/>
+ 
+		
         <!-- Template Stylesheet -->
         <link href="{{asset('custom/css/style.css')}}" rel="stylesheet">
-        
+
     </head>
     <body class="wrapper">
         <div class="min-h-screen bg-gray-100">
@@ -32,10 +35,11 @@
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         <div class="col-lg-2">
-                            <div class="brand">
+                            <div class="brand ">
                                 <a href="#">
-                                    <img src="{{asset('custom/img/intesteller.png')}}" alt="Logo">
-                                </a><b class="text-primary">Recruitment Agency</b>
+                                    <img src="{{asset('custom/img/Interstellar.png')}}" alt="Logo">
+
+                                </a>
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -63,15 +67,26 @@
                                 </button>
 
                                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                                    <div class="navbar-nav ml-auto">
+                                    <div class="navbar-nav mx-auto">
                                         <a href="{{route('homepage')}}" class="nav-item nav-link active"><b>HOME</b></a>
                                         <a href="{{route('about-us')}}" class="nav-item nav-link"><b>ABOUT US</b></a>
                                         <a href="{{route('services')}}" class="nav-item nav-link"><b>OUR SERVICES</b></a>
                                         <a href="#" class="nav-item nav-link"><b>EMPLOYERS</b></a>
-                                        <a href="#" class="nav-item nav-link"><b>EVENTS & NEWS</b></a>
+                                        <li class="nav-item dropdown">
+								        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								          <b>TRAINING</b>
+								        </a>
+								        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								          <a class="dropdown-item" href="#"><b>Individuals</b></a>
+								          <a class="dropdown-item" href="#"><b>Corporate</b></a>
+								          
+								         
+								        </div>
+								      </li>
                                         <a href="{{route('contactus')}}" class="nav-item nav-link"><b>CONTACT US</b></a>
+
                                         @guest
-                                        <a href="{{route('login')}}" class="btn"><i class="fa fa-sign-in" aria-hidden="true"></i>Login/Sign up</a>
+                                        <a href="{{route('login')}}" class="btn float-right"><i class="fa fa-sign-in" aria-hidden="true"></i>Login/Sign up</a>
                                         @else
                                         <div class="dropdown show">
 										  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -115,5 +130,11 @@
 
         <!-- Template Javascript -->
         <script src="{{asset('custom/js/main.js')}}"></script>
+        <script type="text/javascript" src="{{asset('custom/DataTables/datatables.min.js')}}"></script>
+        <script >
+		$(document).ready( function () {
+		    $('#enquiries').DataTable();
+		} );
+		</script>
     </body>
 </html>

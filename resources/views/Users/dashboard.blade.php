@@ -26,7 +26,7 @@
   		</div>
   		<div class="col-md-9">
   			<div class="card">
-  				<form method="post" action="#">
+  				<form method="#" action="#">
   				@csrf
   				<div class="card-header"><b>Personal details</b></div>
   				<div class="card-body">
@@ -70,6 +70,27 @@
   			</div>
 
   			</form>
+  			</div>
+  			<br>
+  			<div class="card">
+  				<div class="card-header"><b>My Enquiries</b></div>
+  				<div class="card-body">
+  					<table class="table table-condensed table-striped" id="enquiries">
+  						<thead>
+  							<tr>
+  								<th>Serial No</th>
+  								<th>Enquiry</th>
+  								<th>Date sent</th>
+  								<th>Status</th>
+  							</tr>
+  						</thead>
+  						<tbody>
+  							<tbody>
+  								<tr></tr>
+  							</tbody>
+  						</tbody>
+  					</table>
+  				</div>
   			</div>
   		</div>
     </div>

@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\UserAccountController;
+use App\Http\Controllers\Auth\AdminAuthController;
+use App\Http\Controllers\AdminController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -38,5 +40,16 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 
 })->middleware(['auth'])->name('dashboard');
+
+
+//admin login routes
+Route::get('admin/login',[AdminAuthController::class,'getLogin'])->name('adminLogin');
+Route::post('admin/login', [AdminAuthController::class,'postLogin'])->name('adminLoginPost');
+Route::get('admin/logout', [AdminAuthController::class,'logout'])->name('adminLogout');
+
+Route::group(['prefix' => 'admin','middleware' => 'adminauth'], function () {
+	// Admin Dashboard
+	Route::get('dashboard',[AdminController::class,'dashboard'])->name('dashboard');	
+});
 
 require __DIR__.'/auth.php';

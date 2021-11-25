@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Contactus;
 
 class UserAccountController extends Controller
 {
@@ -12,7 +13,7 @@ class UserAccountController extends Controller
     }
 
     public function myaccount(){
-
+    	
     	return view('Users.dashboard');
     }
 }
