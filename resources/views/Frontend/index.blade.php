@@ -111,11 +111,20 @@
                 </div>
             </div>
             <!-- Service End -->
-            <div class="container-fluid">
+            <div class="container">
             	<div class="section-header">
                         <h2>REGISTERED WITH</h2>
                         <p>List all registered companies. </p>
                     </div>
+                   <div class="row ">
+                   		<div class="col-lg-3">
+                   			<img src="{{asset('custom/img/n1.png')}}" class="img-thumbnail" alt="..." style="height: 70%;width: 100%;">
+                   		</div>
+                   		<div class="col-lg-3">
+                   			<img src="{{asset('custom/img/n2.png')}}" class="img-thumbnail" alt="..." style="height: 70%; width: 100%;">
+                   		</div>
+                   		<div class="col-lg-3"></div>
+                   </div>  
             </div>
 
 @endsection

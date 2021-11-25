@@ -18,4 +18,9 @@ class PagesController extends Controller
 
     	return view('Frontend.services');
     }
+    public function contactus(){
+
+    	return view('Frontend.contactus');
+    }
+
 }

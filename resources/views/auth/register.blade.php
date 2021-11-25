@@ -1,9 +1,8 @@
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
-            <a href="/">
-                <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
-            </a>
+           <img src="{{asset('custom/img/Intesteller.png')}} " width="150px">
+             <h2><b>Recruitment Agency</b></h2>
         </x-slot>
 
         <!-- Validation Errors -->

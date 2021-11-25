@@ -7,7 +7,8 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Bootstrap Agency Template" name="keywords">
         <meta content="Bootstrap Agency Template" name="description">
-
+          <!-- Styles -->
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <!-- Favicon -->
         <link href="{{asset('custom/img/favicon.ico')}}" rel="icon">
 
@@ -23,6 +24,7 @@
 
         <!-- Template Stylesheet -->
         <link href="{{asset('custom/css/style.css')}}" rel="stylesheet">
+        
     </head>
     <body class="wrapper">
         <div class="min-h-screen bg-gray-100">
@@ -67,8 +69,27 @@
                                         <a href="{{route('services')}}" class="nav-item nav-link"><b>OUR SERVICES</b></a>
                                         <a href="#" class="nav-item nav-link"><b>EMPLOYERS</b></a>
                                         <a href="#" class="nav-item nav-link"><b>EVENTS & NEWS</b></a>
-                                        <a href="#" class="nav-item nav-link"><b>CONTACT US</b></a>
+                                        <a href="{{route('contactus')}}" class="nav-item nav-link"><b>CONTACT US</b></a>
+                                        @guest
                                         <a href="{{route('login')}}" class="btn"><i class="fa fa-sign-in" aria-hidden="true"></i>Login/Sign up</a>
+                                        @else
+                                        <div class="dropdown show">
+										  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										    {{Auth::user()->name}}
+										  </a>
+
+										  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+										    <a class="dropdown-item" href="{{route('user.account')}}"><b class="text-danger">My Account</b></a>
+										    <a class="dropdown-item" href="#"><b class="text-danger">Settings</b></a>
+										    <a class="dropdown-item" href="{{route('logout')}}"
+								            onclick="event.preventDefault();document.getElementById('logout-form').submit();" data-toggle="modal"
+								            data-target="#logoutModal"><b class="text-danger">Log Out</b></a>
+								            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+									            @csrf
+									          </form>
+										  </div>
+										</div>
+                                        @endguest
                                     </div>
                                 </div>
                             </div>
