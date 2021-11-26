@@ -15,10 +15,10 @@
     
     <!-- FontAwesome JS-->
     <script defer src="{{asset('admin/assets/plugins/fontawesome/js/all.min.js')}}"></script>
-    
+      <link rel="stylesheet" type="text/css" href="{{asset('custom/DataTables/datatables.min.css')}}"/>
     <!-- App CSS -->  
     <link id="theme-style" rel="stylesheet" href="{{asset('admin/assets/css/portal.css')}}">
-
+     
     </head>
     <body class="app">
         <div class="min-h-screen bg-gray-100">
@@ -33,16 +33,19 @@
       
         </div>
          
-         <!-- Javascript -->          
+         <!-- Javascript --> 
+
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>         
     <script src="{{asset('admin/assets/plugins/popper.min.js')}}"></script>
     <script src="{{asset('admin/assets/plugins/bootstrap/js/bootstrap.min.js')}}"></script>  
-
     <!-- Charts JS -->
-    <script src="{{asset('admin/assets/plugins/chart.js/chart.min.js')}}"></script> 
-    <script src="{{asset('admin/assets/js/index-charts.js')}}"></script> 
-    
     <!-- Page Specific JS -->
     <script src="{{asset('admin/assets/js/app.js')}}"></script> 
-		
+    <script type="text/javascript" src="{{asset('custom/DataTables/datatables.min.js')}}"></script>
+		<script >
+        $(document).ready( function () {
+            $('#admin_enquiries').DataTable();
+        } );
+        </script>
     </body>
 </html>
