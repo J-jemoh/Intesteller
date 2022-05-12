@@ -3,14 +3,14 @@
     <head>
        
         <meta charset="utf-8">
-        <title>INTERSTELLER - Employment Agency</title>
+        <title>INTERSTELLAR - RECRUITMENT Agency</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Bootstrap Agency Template" name="keywords">
         <meta content="Bootstrap Agency Template" name="description">
           <!-- Styles -->
        <!--  <link rel="stylesheet" href="{{ asset('css/app.css') }}"> -->
         <!-- Favicon -->
-        <link href="{{asset('custom/img/favicon.ico')}}" rel="icon">
+        <link href="{{asset('custom/img/Interstellar.png')}}" rel="icon">
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
@@ -45,10 +45,10 @@
                         <div class="col-lg-10">
                             <div class="topbar">
                                 <div class="topbar-col">
-                                    <a href="tel:+012 345 67890"><i class="fa fa-phone-alt"></i><b>+254-700-355-226</b></a>
+                                    <a href="tel:+012 345 67890"><i class="fa fa-phone-alt"></i><b>+254-724-624-935</b></a>
                                 </div>
                                 <div class="topbar-col">
-                                    <a href="mailto:info@example.com"><i class="fa fa-envelope"></i><b>info@intesteller.org</b></a>
+                                    <a href="mailto:info@interstellar"><i class="fa fa-envelope"></i><b>info@interstellar.org</b></a>
                                 </div>
                                 <div class="topbar-col">
                                     <div class="topbar-social">
@@ -71,14 +71,15 @@
                                         <a href="{{route('homepage')}}" class="nav-item nav-link active"><b>HOME</b></a>
                                         <a href="{{route('about-us')}}" class="nav-item nav-link"><b>ABOUT US</b></a>
                                         <a href="{{route('services')}}" class="nav-item nav-link"><b>OUR SERVICES</b></a>
-                                        <a href="#" class="nav-item nav-link"><b>EMPLOYERS</b></a>
+                                        <a href="{{route('job.advert')}}" class="nav-item nav-link"><b>EMPLOYERS</b></a>
+                                        <a href="{{route('home.jobseeker')}}" class="nav-item nav-link"><b>JOB SEEKERS</b></a>
                                         <li class="nav-item dropdown">
 								        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								          <b>TRAINING</b>
 								        </a>
 								        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								          <a class="dropdown-item" href="#"><b>Individuals</b></a>
-								          <a class="dropdown-item" href="#"><b>Corporate</b></a>
+								          <a class="dropdown-item" href="{{route('training.local')}}"><b>Local</b></a>
+								          <a class="dropdown-item" href="#"><b>International</b></a>
 								          
 								         
 								        </div>

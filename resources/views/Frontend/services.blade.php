@@ -27,7 +27,7 @@
                             <div class="service-row-text">
                                 <h2 class="section-title"><b>Recruitment</b></h2>
                                 <p>
-                                    We link prospect employers to qualified and experienced employees both local and internation on various fields
+                                    We link prospect employers to qualified and experienced employees both local and international on various fields
                                 </p>
                                 <a class="btn" href="#">Read More</a>
                             </div>

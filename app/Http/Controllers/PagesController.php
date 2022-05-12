@@ -22,5 +22,16 @@ class PagesController extends Controller
 
     	return view('Frontend.contactus');
     }
+    public function localtraining(){
+
+        return view('Frontend.local');
+    }
+    public function adverts(){
+
+        return view('Frontend.advert');
+    }
+    public function jobseeker(){
+        return view('Frontend.jobseeker');
+    }
 
 }

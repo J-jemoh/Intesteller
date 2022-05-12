@@ -6,7 +6,7 @@
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         <div class="col-md-6">
-                            <h2>INTESTELLER</h2>
+                            <h2>INTERSTELLAR</h2>
                             <h2><span class="text-warning">RECRUITMENT</span> AGENCY</h2>
                             <p class="text-white">Experience the best recruitment,talent management and retention solutions in Kenya</p>
                             <a class="btn" href="#about-us">Learn More About us</a>
@@ -28,10 +28,10 @@
                         <div class="col-md-6">
                             <h2 class="section-title">Who we are</h2>
                              <p>
-                                Intesteller Recruitment Agency is a certified liability company registered in Kenya. It provides <b>Recruitment, Training, Counselling and Re-integration </b> services both locally and internationall across different fields.
+                                Interstellar Recruitment Agency is a certified liability company registered in Kenya. It provides <b>Recruitment, Training, Counselling and Re-integration </b> services both locally and internationally across different fields.
                             </p>
                             <p>
-                                We have an experienced team skilled in various fields offering training, counselling and recruitment services accross the globe for over 20 years. Our quality work and services to our clients have made us a leading agency in recruitment, training and counselling both locally and internationally. 
+                                We have an experienced team skilled in various fields offering training, counselling and recruitment services accross the globe. Our quality work and services to our clients have made us a leading agency in recruitment, training and counselling both locally and internationally. 
                             </p>
                             <p><b>We pride ourselves in transforming yuor business through our expertise in multiple fields and our quality work.</b></p>
                             <a class="btn" href="">Learn More</a>
@@ -100,7 +100,7 @@
             <div class="container">
             	<div class="section-header">
                         <h2>REGISTERED WITH</h2>
-                        <p>List all registered companies. </p>
+                        <p>We are accredited with the following institutions </p>
                     </div>
                    <div class="row ">
                    		<div class="col-lg-3">

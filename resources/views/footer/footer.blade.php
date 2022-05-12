@@ -7,12 +7,13 @@
                             <div class="footer-about ">
                                 <h2 class="text-white">About Us</h2>
                                 <p class="text-white">
-                                    Intersteller Recruitment Agency is a certified liability company registered in Kenya. It provides <b>Recruitment, Training, Counselling and Re-integration </b> services both locally and internationall across different fields
+                                    Interstellar Recruitment Agency is a certified liability company registered in Kenya. It provides <b>Recruitment, Training, Counselling and Re-integration </b> services both locally and internationally across different fields
                                 </p>
                                 <br>
-                                <p class="text-white"><i class="fa fa-map-marker-alt"></i>Westlands, Nairobi, KENYA</p>
-                                <p class="text-white"><i class="fa fa-phone-alt"></i>+254-700-355-226</p>
-                                <p class="text-white"><i class="fa fa-envelope"></i>info@intesteller.org</p>
+                                <p class="text-white"><i class="fa fa-map-marker-alt"></i>Nderi street Nyeri P. O Box 5033-00100 Nyeri Kenya</p>
+                                <p class="text-white"><i class="fa fa-map-marker-alt"></i>Murang'a Hospital Road 410-10200 Murang'a Kenya</p>
+                                <p class="text-white"><i class="fa fa-phone-alt"></i>+2547-246-24935</p>
+                                <p class="text-white"><i class="fa fa-envelope"></i>info@intestellar.org</p>
                             </div>
                         </div>
                         <div class="col-md-7">
@@ -46,7 +47,7 @@
                 <div class="container-fluid copyright">
                     <div class="row">
                         <div class="col-md-6">
-                           <b> <p class="text-white">&copy; <a href="#"class="text-white">Intesterller Recruitment Agency</a>, All Right Reserved.</p></b>
+                           <b> <p class="text-white">&copy; <a href="#"class="text-white">Intesterllar Recruitment Agency</a>, All Right Reserved. © <?php echo date("Y"); ?> Copyright.</p></b>
                         </div>
                         
                     </div>

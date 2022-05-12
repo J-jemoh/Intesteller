@@ -24,12 +24,12 @@
                         <div class="col-md-6">
                             <h2 class="section-title">Who we are</h2>
                             <p>
-                                Intersteller Recruitment Agency is a certified liability company registered in Kenya. It provides <b>Recruitment, Training, Counselling and Re-integration </b> services both locally and internationall across different fields.
+                                Interstellar Recruitment Agency is a certified liability company registered in Kenya. It provides <b>Recruitment, Training, Counselling and Re-integration </b> services both locally and internationally across different fields.
                             </p>
                             <p>
-                                We have an experienced team skilled in various fields offering training, counselling and recruitment services accross the globe for over 20 years. Our quality work and services to our clients have made us a leading agency in recruitment, training and counselling both locally and internationally. 
+                                We have an experienced team skilled in various fields offering training, counselling and recruitment services accross the globe. Our quality work and services to our clients have made us a leading agency in recruitment, training and counselling both locally and internationally. 
                             </p>
-                            <p><b>We pride ourselves in transforming yuor business through our expertise in multiple fields and our quality work.</b></p>
+                            <p><b>We pride ourselves in transforming your business through our expertise in multiple fields and our quality work.</b></p>
                             <a class="btn" href="#">Learn More</a>
                         </div>
                     </div>
@@ -52,6 +52,7 @@
                                 <div class="team-text">
                                     <h3><b class="text-primary">Mrs Esther Maina</b></h3>
                                     <p><b>Director HR and customer service</b></p>
+                                    <p>Email:<b class="text-primary"> esther@interstellar.org</b></p>
                                 </div>
                                 <div class="team-social">
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -70,6 +71,7 @@
                                 <div class="team-text">
                                     <h3><b class="text-primary">Dr Leah M Njiru</b></h3>
                                     <p><b>Director adm and public relations</b></p>
+                                    <p>Email:<b class="text-primary"> leah@interstellar.org</b></p>
                                 </div>
                                 <div class="team-social">
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -88,6 +90,7 @@
                                 <div class="team-text">
                                     <h3><b class="text-primary">Dr Rosemary wairimu</b></h3>
                                     <p><b>Director strategy and innovation</b></p>
+                                    <p>Email:<b class="text-primary"> rosemary@interstellar.org</b></p>
                                 </div>
                                 <div class="team-social">
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -104,8 +107,9 @@
                                     <img src="{{asset('custom/img/male.png')}}" alt="Team">
                                 </div>
                                 <div class="team-text">
-                                    <h3><b class="text-primary">Mr Nathenge Gitonga</b></h3>
+                                    <h3><b class="text-primary">Mr Mathenge Gitonga</b></h3>
                                     <p><b>Director Diplomatic relations</b></p>
+                                    <p>Email:<b class="text-primary"> gitonga@interstellar.org</b></p>
                                 </div>
                                 <div class="team-social">
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>

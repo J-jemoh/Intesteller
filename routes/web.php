@@ -29,8 +29,10 @@ use App\Http\Controllers\AdminController;
  Route::get('/about-us',[PagesController::class,'aboutus'])->name('about-us');
  Route::get('/our-services',[PagesController::class,'services'])->name('services');
  Route::get('/contact-us',[PagesController::class,'contactus'])->name('contactus');
+ Route::get('/Local-training',[PagesController::class,'localtraining'])->name('training.local');
  Route::post('/contact-us',[ContactController::class,'savecontact'])->name('savecontact');
-
+ Route::get('/job-adverts',[PagesController::class,'adverts'])->name('job.advert');
+  Route::get('/job-seekers',[PagesController::class,'jobseeker'])->name('home.jobseeker');
  //logged in users route
  Route::name('user.')->prefix('user')->middleware(['auth'])->group(function () {
    Route::get('/my-account',[UserAccountController::class,'myaccount'])->name('account');

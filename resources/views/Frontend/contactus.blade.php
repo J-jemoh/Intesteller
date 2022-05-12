@@ -54,22 +54,36 @@
                                     
                                     <div class="editor-text">
                                         <h3><b>Human Resource</b></h3>
-                                        <p><i class="fa fa-map-marker-alt"></i>Westlands, Nairobi, Kenya</p>
-		                                <p><i class="fa fa-phone-alt"></i>+254-700-355-226</p>
-		                                <p><i class="fa fa-envelope"></i>info@intesteller.org</p>
-                                        <a href="mailto:info@intesteller.org">Email Now</a>
+                                        <p><i class="fa fa-map-marker-alt text-primary"></i> <b>Nderi street Nyeri</b> P. O Box 5033-00100 Nyeri Kenya</p>
+                                        <p><i class="fa fa-map-marker-alt text-primary"></i> <b>Murang'a Hospital Road</b> 410-10200 Murang'a Kenya</p>
+		                                <p><i class="fa fa-phone-alt text-primary"></i> +254-724-624-935</p>
+		                                <p><i class="fa fa-envelope text-primary"></i> info@interstellar.org</p>
+                                        <a href="mailto:info@intesteller.org"> Email Now</a>
                                     </div>
                                 </div>
             				</div>
             			</div>
             			<div class="card">
-            				<div class="card-header"><b>Our directions</b></div>
-            				<div class="mapouter"><div class="gmap_canvas"><iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Westlands,%20Nairobi%20Kenya&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:300px;width:300px;}</style><a href="https://www.embedgooglemap.net">google maps embedded</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:300px;}</style></div></div>
+            				
             			</div>
             		</div>
             	</div>
             	</div>
+                
+
+</div>
+<br>
+<div class="container">
+    <div class="row">
+                    <div class="col-lg-6">
+                        <b>1. Nderi street Nyeri P. O Box 5033-00100 Nyeri Kenya</b>
+                       <div class="mapouter "><div class="gmap_canvas d-block"><iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Nderi%20street%20Nyeri%20%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com"></a><br><style>.mapouter{position:relative;text-align:right;height:100%;width:100%;}</style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>
+                    
+                </div>
+                <div class="col-lg-6">
+                    <b>2. Murang'a Hospital Road 410-10200 Murang'a Kenya</b>
+                       <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=410-10200%20Murang'a%20Kenya&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123 movies</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:500px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:500px;}</style></div></div>
+                    </div>
             </div>
-
-
+</div>
 @endsection
